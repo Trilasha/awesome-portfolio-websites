@@ -5,67 +5,67 @@ AOS.init();
 const moocs = document.querySelector(".moocs");
 const moocscards = [
   {
-    title: "Data Science",
-    cardImage: "assets/images/education-page/coursera2.svg",
-    moocLink: "https://www.coursera.org/browse/data-science",
+    title: "Programming for Everybody (Getting started with Python)",
+    cardImage: "assets/images/education-page/coursera_1.png",
+    moocLink: "https://www.coursera.org/account/accomplishments/certificate/WXN2J9T96DBD",
   },
   {
-    title: "Cryptography",
-    cardImage: "assets/images/education-page/udemy.svg",
-    moocLink: "https://www.udemy.com/course/cryptography-for-beginners/",
+    title: "Alpha Microsoft Learn Student Ambassador",
+    cardImage: "assets/images/education-page/mlsa_1.png",
+    moocLink: "https://drive.google.com/file/d/1XJLnLaXLGIFek0uFFPaOMmuZJBbqLN0O/view?usp=drivesdk",
   },
   {
-    title: "Machine Learning",
-    cardImage: "assets/images/education-page/coursera2.svg",
-    moocLink: "https://www.coursera.org/learn/machine-learning",
+    title: "Google Code Jam 2022",
+    cardImage: "assets/images/education-page/codejam_new.jpg",
+    moocLink: "https://drive.google.com/file/d/1hL_9MhX03I2Yr2Y8Vy2cgSPaBT1EnrdK/view?usp=drivesdk",
   },
   {
-    title: "Introduction to HTML 5",
-    cardImage: "assets/images/education-page/udacity.svg",
-    moocLink: "https://www.udacity.com/course/intro-to-html-and-css--ud001",
+    title: "Google Kickstart 2022",
+    cardImage: "assets/images/education-page/kickstart_new.jpg",
+    moocLink: "https://drive.google.com/file/d/1hwWH-SB7m7OYMj_bP9R-MA3ZdszzQG16/view",
   },
   {
-    title: "Introduction to CSS 3",
-    cardImage: "assets/images/education-page/udacity.svg",
-    moocLink: "https://www.udacity.com/course/intro-to-html-and-css--ud001",
+    title: "Python Data Structures",
+    cardImage: "assets/images/education-page/coursera_1.png",
+    moocLink: "https://www.coursera.org/account/accomplishments/certificate/KDHTJH8VFC9X",
   },
-  {
-    title: "Javascript",
-    cardImage: "assets/images/education-page/udacity.svg",
-    moocLink: "https://www.udacity.com/course/intro-to-javascript--ud803",
-  },
-  {
-    title: "Bootstrap 4",
-    cardImage: "assets/images/education-page/udemy.svg",
-    moocLink: "https://www.udemy.com/course/bootstrap-4-tutorials/",
-  },
-  {
-    title: "Intro to React",
-    cardImage: "assets/images/education-page/edx.svg",
-    moocLink: "https://www.edx.org/learn/reactjs",
-  },
-  {
-    title: "Intro to React Native",
-    cardImage: "assets/images/education-page/coursera2.svg",
-    moocLink:
-      "https://www.coursera.org/lecture/react-native/introduction-to-react-native-Eax0D",
-  },
-  {
-    title: "NodeJS, Express and MongoDB",
-    cardImage: "assets/images/education-page/coursera2.svg",
-    moocLink: "https://www.coursera.org/learn/server-side-nodejs",
-  },
-  {
-    title: "XML-AJAX",
-    cardImage: "assets/images/education-page/udemy.svg",
-    moocLink: "https://www.udemy.com/course/xml-from-beginner-to-expert/",
-  },
-  {
-    title: "Data Structures & Algorithms",
-    cardImage: "assets/images/education-page/udacity.svg",
-    moocLink:
-      "https://www.udacity.com/course/data-structures-and-algorithms-nanodegree--nd256",
-  },
+  // {
+  //   title: "Javascript",
+  //   cardImage: "assets/images/education-page/udacity.svg",
+  //   moocLink: "https://www.udacity.com/course/intro-to-javascript--ud803",
+  // },
+  // {
+  //   title: "Bootstrap 4",
+  //   cardImage: "assets/images/education-page/udemy.svg",
+  //   moocLink: "https://www.udemy.com/course/bootstrap-4-tutorials/",
+  // },
+  // {
+  //   title: "Intro to React",
+  //   cardImage: "assets/images/education-page/edx.svg",
+  //   moocLink: "https://www.edx.org/learn/reactjs",
+  // },
+  // {
+  //   title: "Intro to React Native",
+  //   cardImage: "assets/images/education-page/coursera2.svg",
+  //   moocLink:
+  //     "https://www.coursera.org/lecture/react-native/introduction-to-react-native-Eax0D",
+  // },
+  // {
+  //   title: "NodeJS, Express and MongoDB",
+  //   cardImage: "assets/images/education-page/coursera2.svg",
+  //   moocLink: "https://www.coursera.org/learn/server-side-nodejs",
+  // },
+  // {
+  //   title: "XML-AJAX",
+  //   cardImage: "assets/images/education-page/udemy.svg",
+  //   moocLink: "https://www.udemy.com/course/xml-from-beginner-to-expert/",
+  // },
+  // {
+  //   title: "Data Structures & Algorithms",
+  //   cardImage: "assets/images/education-page/udacity.svg",
+  //   moocLink:
+  //     "https://www.udacity.com/course/data-structures-and-algorithms-nanodegree--nd256",
+  // },
 ];
 
 const experience = [

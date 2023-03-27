@@ -4,146 +4,90 @@ const researchTable = document.querySelector(".main");
 
 const research = [
   {
-    title: "A Batch Normalized Inference Network Keeps the KL Vanishing Away",
-    authors:
-      "Qile Zhu, Wei Bi, Xiaojiang Liu, Xiyao Ma, Xiaolin Li and Dapeng Wu",
+    title: "Google Women Engineers Scholar'23 ",
     conferences:
-      "The 58th Annual Meeting of the Association for Computational Linguistics",
-    researchYr: 2020,
+    " : Secured a place among the top 250 girls selected for the Women Engineers Program '22, supported by Google, from all over India",
+    researchYr: 2022,
     citebox: "popup1",
-    image: "assets/images/research-page/inteferenceNetwork.png",
+
+    image: "assets/images/research-page/we2.webp",
+
     citation: {
       vancouver:
         "Qile Zhu, Wei Bi, Xiaojiang Liu, Xiyao Ma, Xiaolin Li and Dapeng Wu. A Batch Normalized Inference Network Keeps the KL Vanishing Away. The 58th Annual Meeting of the Association for Computational Linguistics 2020.",
     },
-    abstract:
-      "This is currently left empty and this can be considered as a dummy data 1",
+    about:
+      "Women have been shaping computing since its early days. However, today women hold less than 26% of the global tech workforce. </br>Women Engineers (WE), a 24-month immersive and LIVE online learning experiential program offered by TalentSprint and supported by Google, selects, trains, and nurtures deserving first-year women engineering students to become world-class software engineers. A 100% scholarship that covers the complete program fee along with a rewarding cash scholarship are offered to the selected participants. </br>730+ students, shortlisted from over 78,000 applicants, have been positively impacted by the program in its first 4 cohorts. The program alumni are working with top-tier tech companies.",
     absbox: "absPopup1",
   },
 
   {
-    title: "A Call for More Rigor in Unsupervised Cross-lingual Learning",
-    authors:
-      "Mikel Artetxe, Sebastian Ruder, Dani Yogatama, Gorka Labaka and Eneko Agirre",
+    title: "Diva Winner in NIT Silchar Coderush Challenge 2023",
     conferences:
-      "The 58th Annual Meeting of the Association for Computational Linguistics",
-    researchYr: 2020,
+      ": Secured a position among the top-30 from our institute and also begged the title of `DIVA WINNER` for being the top performer among all the other females. ",
+    researchYr: 2023,
     citebox: "popup2",
-    image: "assets/images/research-page/crossLingual.png",
+    image: "assets/images/research-page/coderush2.png",
+
     citation: {
       vancouver:
-        "Mikel Artetxe, Sebastian Ruder, Dani Yogatama, Gorka Labaka and Eneko Agirre. A Call for More Rigor in Unsupervised Cross-lingual Learning. The 58th Annual Meeting of the Association for Computational Linguistics 2020.",
+      "assets/images/research-page/cd2.png",
     },
-    abstract:
-      "This is currently left empty and this can be considered as a dummy data 2",
+    about:
+      "Coderush 2023 is a prestigious coding competition exclusively for top colleges in India, hosted by the Y-Combinator backed start-up, AlgoUniversity. </br>This competition was a unique opportunity for students at NIT Silchar to showcase their programming skills and potentially win a cash prize of ₹7500 and total prizes worth ₹25000.",
     absbox: "absPopup2",
   },
 
   {
-    title:
-      "A Comprehensive Analysis of Preprocessing for Word Representation Learning in Affective Tasks",
-    authors: "Nastaran Babanejad, Ameeta Agrawal, Aijun An and Manos Papagelis",
+    title: "GOOGLE CODING COMPETITIONS 2022",
     conferences:
-      "The 58th Annual Meeting of the Association for Computational Linguistics",
-    researchYr: 2020,
-    citebox: "popup3",
-    image: "assets/images/research-page/wordRepresentation.png",
+      ": Secured a position among the top-30 from our institute and also begged the title of `DIVA WINNER` for being the top performer among all the other females. ",
+    researchYr: 2023,
+    citebox: "popup2",
+    image: "assets/images/research-page/gcc.jpg",
+
     citation: {
       vancouver:
-        "Nastaran Babanejad, Ameeta Agrawal, Aijun An and Manos Papagelis. A Comprehensive Analysis of Preprocessing for Word Representation Learning in Affective Tasks. The 58th Annual Meeting of the Association for Computational Linguistics 2020.",
+      "assets/images/research-page/cd2.png",
     },
-    abstract:
-      "This is currently left empty and this can be considered as a dummy data 3",
-    absbox: "absPopup3",
+    about:
+      "Coderush 2023 is a prestigious coding competition exclusively for top colleges in India, hosted by the Y-Combinator backed start-up, AlgoUniversity. </br>This competition was a unique opportunity for students at NIT Silchar to showcase their programming skills and potentially win a cash prize of ₹7500 and total prizes worth ₹25000.",
+    absbox: "absPopup2",
   },
 
   {
-    title:
-      "A Contextual Hierarchical Attention Network with Adaptive Objective for Dialogue State Tracking",
-    authors:
-      "Yong Shan, Zekang Li, Jinchao Zhang, Fandong Meng, Yang Feng, Cheng Niu and Jie Zhou",
+    title: "REPLY CODE CHALLENGE STANDARD 2023",
     conferences:
-      "The 58th Annual Meeting of the Association for Computational Linguistics",
-    researchYr: 2020,
-    citebox: "popup4",
-    image: "assets/images/research-page/dialogueState.png",
+      ": Secured a position among the top-30 from our institute and also begged the title of `DIVA WINNER` for being the top performer among all the other females. ",
+    researchYr: 2023,
+    citebox: "popup2",
+    image: "assets/images/research-page/replyy.jpg",
+
     citation: {
       vancouver:
-        "Yong Shan, Zekang Li, Jinchao Zhang, Fandong Meng, Yang Feng, Cheng Niu and Jie Zhou. A Contextual Hierarchical Attention Network with Adaptive Objective for Dialogue State Tracking. The 58th Annual Meeting of the Association for Computational Linguistics 2020.",
+      "assets/images/research-page/cd2.png",
     },
-    abstract:
-      "This is currently left empty and this can be considered as a dummy data 4",
-    absbox: "absPopup4",
+    about:
+      "Coderush 2023 is a prestigious coding competition exclusively for top colleges in India, hosted by the Y-Combinator backed start-up, AlgoUniversity. </br>This competition was a unique opportunity for students at NIT Silchar to showcase their programming skills and potentially win a cash prize of ₹7500 and total prizes worth ₹25000.",
+    absbox: "absPopup2",
   },
 
-  {
-    title: "Dual Super-Resolution Learning for Semantic Segmentation",
-    authors: "Wang, Li and Li, Dong and Zhu, Yousong and Tian, Lu and Shan, Yi",
-    conferences:
-      "IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)",
-    researchYr: 2020,
-    citebox: "popup5",
-    image: "assets/images/research-page/semanticSegmentation.png",
-    citation: {
-      vancouver:
-        "Wang, Li and Li, Dong and Zhu, Yousong and Tian, Lu and Shan, Yi. Dual Super-Resolution Learning for Semantic Segmentation. IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR) 2020.",
-    },
-    abstract:
-      "This is currently left empty and this can be considered as a dummy data 5",
-    absbox: "absPopup5",
-  },
 
   {
-    title: "Deep Unfolding Network for Image Super-Resolution",
-    authors: "Zhang, Kai and Van Gool, Luc and Timofte, Radu",
+    title: "ALPHA MICROSFT LEARN AMBASSADOR",
     conferences:
-      "IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)",
-    researchYr: 2020,
-    citebox: "popup6",
-    image: "assets/images/research-page/deepNetwork.png",
-    citation: {
-      vancouver:
-        "Zhang, Kai and Van Gool, Luc and Timofte, Radu. Deep Unfolding Network for Image Super-Resolution. IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR) 2020.",
-    },
-    abstract:
-      "This is currently left empty and this can be considered as a dummy data 6",
-    absbox: "absPopup6",
-  },
+      ": Secured a position among the top-30 from our institute and also begged the title of `DIVA WINNER` for being the top performer among all the other females. ",
+    researchYr: 2023,
+    citebox: "popup2",
+    image: "assets/images/research-page/mlsa_1.png",
 
-  {
-    title:
-      "Unsupervised Learning for Intrinsic Image Decomposition From a Single Image",
-    authors: "Liu, Yunfei and Li, Yu and You, Shaodi and Lu, Feng",
-    conferences:
-      "IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)",
-    researchYr: 2020,
-    citebox: "popup7",
-    image: "assets/images/research-page/imageDecomposition.png",
     citation: {
       vancouver:
-        "Liu, Yunfei and Li, Yu and You, Shaodi and Lu, Feng. Unsupervised Learning for Intrinsic Image Decomposition From a Single Image. IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR) 2020.",
+      "assets/images/research-page/cd2.png",
     },
-    abstract:
-      "This is currently left empty and this can be considered as a dummy data 7",
-    absbox: "absPopup7",
-  },
-  {
-    title:
-      "Forward and Backward Information Retention for Accurate Binary Neural Networks",
-    authors:
-      "Qin, Haotong and Gong, Ruihao and Liu, Xianglong and Shen, Mingzhu and Wei, Ziran and Yu, Fengwei and Song, Jingkuan",
-    conferences:
-      "IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)",
-    researchYr: 2020,
-    citebox: "popup8",
-    image: "assets/images/research-page/neuralNetworks.jpg",
-    citation: {
-      vancouver:
-        "Qin, Haotong and Gong, Ruihao and Liu, Xianglong and Shen, Mingzhu and Wei, Ziran and Yu, Fengwei and Song, Jingkuan. Forward and Backward Information Retention for Accurate Binary Neural Networks. IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR) 2020.",
-    },
-    abstract:
-      "This is currently left empty and this can be considered as a dummy data 8",
-    absbox: "absPopup8",
+    about:
+      "Coderush 2023 is a prestigious coding competition exclusively for top colleges in India, hosted by the Y-Combinator backed start-up, AlgoUniversity. </br>This competition was a unique opportunity for students at NIT Silchar to showcase their programming skills and potentially win a cash prize of ₹7500 and total prizes worth ₹25000.",
+    absbox: "absPopup2",
   },
 ];
 AOS.init();
@@ -153,13 +97,12 @@ const fillData = () => {
     ({
       image,
       title,
-      authors,
       conferences,
       researchYr,
-      citebox,
-      citation,
       absbox,
-      abstract,
+      about,
+      citation,
+      citebox
     }) =>
       (output += `
             <tr data-aos="zoom-in-left"> 
@@ -170,8 +113,8 @@ const fillData = () => {
                             <img src="${image}" class="imgRes">
                         </span>
                     </div>
-                    <a href="#0" class="paperTitle"> ${title} </a> 
-                    <div class = "authors"> ${authors} </div> 
+                    <a href="#" class="paperTitle" target="blank"> ${title} </a> 
+                    
                     
                     <div class="rConferences"> ${conferences} 
                         <div class="researchY">${researchYr}</div>
@@ -179,24 +122,26 @@ const fillData = () => {
                     
                     <!--CITE BUTTON-->
                     <div class="d-flex" style="margin-right:5%;">
-                        <button class="button button-accent button-small text-right button-abstract " type="button" data-toggle="collapse" data-target="#${absbox}" aria-expanded="false" aria-controls="${absbox}">
-                            ABSTRACT
+                        <button class="button button-accent button-small text-right button-about " type="button" data-toggle="collapse" data-target="#${absbox}" aria-expanded="false" aria-controls="${absbox}">
+                            ABOUT
                         </button>
-                
+
                         <button class="button button-accent button-small text-right button-abstract " type="button" data-toggle="collapse" data-target="#${citebox}" aria-expanded="false" aria-controls="${citebox}">
-                            CITE
+                        CERTIFICATE
                         </button>
                     </div>
                     <div id="${absbox}" class="collapse" aria-labelledby="headingTwo" data-parent=".collapse">
                         <div class="card-body">
-                            ${abstract}    
+                            ${about}    
                         </div>
                     </div>
+
                     <div id="${citebox}" class="collapse" aria-labelledby="headingTwo" data-parent=".collapse">
                         <div class="card-body">
-                            ${citation.vancouver}    
+                           <img src="${citation.vancouver}" class="rImg">
                         </div>
                     </div>
+                   
                 </td>
             </tr>`)
   );
