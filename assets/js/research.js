@@ -1,3 +1,4 @@
+
 /*Research Details Table*/
 
 const researchTable = document.querySelector(".main");
@@ -39,11 +40,11 @@ const research = [
   },
 
   {
-    title: "GOOGLE CODING COMPETITIONS 2022",
+    title: "GOOGLE CODING COMPETITIONS 2022-23",
     conferences:
-      ": Secured a position among the top-30 from our institute and also begged the title of `DIVA WINNER` for being the top performer among all the other females. ",
+      ": Cleared the Qualification Round and progressed to Round 1 in Google Code Jam 2022<br> : Best Rank of 3282 in Google KICKSTART Rounds’ 2022 <br> : Secured 2440th position in Google Farewell Round A",
     researchYr: 2023,
-    citebox: "popup2",
+    citebox: "popup3",
     image: "assets/images/research-page/gcc.jpg",
 
     citation: {
@@ -51,16 +52,16 @@ const research = [
       "assets/images/research-page/cd2.png",
     },
     about:
-      "Coderush 2023 is a prestigious coding competition exclusively for top colleges in India, hosted by the Y-Combinator backed start-up, AlgoUniversity. </br>This competition was a unique opportunity for students at NIT Silchar to showcase their programming skills and potentially win a cash prize of ₹7500 and total prizes worth ₹25000.",
-    absbox: "absPopup2",
+      "Google’s Coding Competitions provide interactive rounds throughout the year to help you grow your skills, challenge yourself, and connect with developers from around the globe. <br>Google has three flagship Coding Competitions: Code Jam, Hash Code, and Kick Start. Each competition is unique and offers different types of challenges from algorithmic puzzles to team-based optimization problems. <br> However, this year Google decided to bring an end to all these coding competitions and organised the last Farewell Round competition on 15th April'23 ",
+    absbox: "absPopup3",
   },
 
   {
-    title: "REPLY CODE CHALLENGE STANDARD 2023",
+    title: "REPLY CODE CHALLENGE STANDARD EDITION 2023",
     conferences:
-      ": Secured a position among the top-30 from our institute and also begged the title of `DIVA WINNER` for being the top performer among all the other females. ",
+      ": Secured a global rank of 226 in Reply Code Challenge Standard-edition 2023 (a 4-hr long team coding contest) ",
     researchYr: 2023,
-    citebox: "popup2",
+    citebox: "popup4",
     image: "assets/images/research-page/replyy.jpg",
 
     citation: {
@@ -68,17 +69,17 @@ const research = [
       "assets/images/research-page/cd2.png",
     },
     about:
-      "Coderush 2023 is a prestigious coding competition exclusively for top colleges in India, hosted by the Y-Combinator backed start-up, AlgoUniversity. </br>This competition was a unique opportunity for students at NIT Silchar to showcase their programming skills and potentially win a cash prize of ₹7500 and total prizes worth ₹25000.",
-    absbox: "absPopup2",
+      "The Reply Code Challenge is a free online team-based coding competition and we can choose between two different edition: <br> Standard Edition: a challenge that consist in a optimization problem, designed for university students and professionals. <br> Teen Edition: a challenge that consists of five algorithm-based problems, designed for students aged 14 to 19",
+    absbox: "absPopup4",
   },
 
 
   {
     title: "ALPHA MICROSFT LEARN AMBASSADOR",
     conferences:
-      ": Secured a position among the top-30 from our institute and also begged the title of `DIVA WINNER` for being the top performer among all the other females. ",
+      ": Promoted to Alpha-MLSA for my significant contribution to the community. Currently working under the guidance of Pablo Veramendi, Global Program Lead, MLSA. ",
     researchYr: 2023,
-    citebox: "popup2",
+    citebox: "popup5",
     image: "assets/images/research-page/mlsa_1.png",
 
     citation: {
@@ -86,8 +87,8 @@ const research = [
       "assets/images/research-page/cd2.png",
     },
     about:
-      "Coderush 2023 is a prestigious coding competition exclusively for top colleges in India, hosted by the Y-Combinator backed start-up, AlgoUniversity. </br>This competition was a unique opportunity for students at NIT Silchar to showcase their programming skills and potentially win a cash prize of ₹7500 and total prizes worth ₹25000.",
-    absbox: "absPopup2",
+      "Microsoft Learn Student Ambassadors Program is a program to bring together all the students from all over the world who have the passion for Technology, have the desire and craze to learn more about technology and help the community. The Ambassadors get an opportunity to interact with their peers, mentors, Professionals, learn various Microsoft technologies, and implement it in real world.",
+    absbox: "absPopup5",
   },
 ];
 AOS.init();
@@ -113,7 +114,7 @@ const fillData = () => {
                             <img src="${image}" class="imgRes">
                         </span>
                     </div>
-                    <a href="#" class="paperTitle" target="blank"> ${title} </a> 
+                    <a href="#0" class="paperTitle" target="blank"> ${title} </a> 
                     
                     
                     <div class="rConferences"> ${conferences} 
@@ -122,23 +123,13 @@ const fillData = () => {
                     
                     <!--CITE BUTTON-->
                     <div class="d-flex" style="margin-right:5%;">
-                        <button class="button button-accent button-small text-right button-about " type="button" data-toggle="collapse" data-target="#${absbox}" aria-expanded="false" aria-controls="${absbox}">
-                            ABOUT
-                        </button>
-
-                        <button class="button button-accent button-small text-right button-abstract " type="button" data-toggle="collapse" data-target="#${citebox}" aria-expanded="false" aria-controls="${citebox}">
-                        CERTIFICATE
+                        <button class="button button-accent button-small text-right button-abstract " type="button" data-toggle="collapse" data-target="#${absbox}" aria-expanded="false" aria-controls="${absbox}">
+                        ABOUT
                         </button>
                     </div>
                     <div id="${absbox}" class="collapse" aria-labelledby="headingTwo" data-parent=".collapse">
                         <div class="card-body">
-                            ${about}    
-                        </div>
-                    </div>
-
-                    <div id="${citebox}" class="collapse" aria-labelledby="headingTwo" data-parent=".collapse">
-                        <div class="card-body">
-                           <img src="${citation.vancouver}" class="rImg">
+                           ${about}
                         </div>
                     </div>
                    

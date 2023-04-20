@@ -290,6 +290,8 @@ body {
 .rImg {
   margin-left: 0;
   border-radius: 10px;
+  width: 80%;
+  margin: auto;
 }
 
 .imgRes {

@@ -135,6 +135,9 @@ a.socialicon {
   text-decoration: none;
   transition: var(--trans-props);
 }
+/* .socialicon svg{
+  margin: auto;
+} */
 .socialicon i {
   margin: auto;
   font-size: 24px;

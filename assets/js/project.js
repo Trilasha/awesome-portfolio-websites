@@ -6,20 +6,20 @@ const projectcards = document.querySelector(".projectcards");
 // Array of object for projects
 const projects = [
   {
-    title: "NewsWallah",
-    cardImage: "assets/images/project-page/newswallah.webp",
-    description: "It's a responsive API based News Web App to display the daily news and its contents category wise.",
-    // tagimg: "https://cdn.iconscout.com/icon/free/png-512/react-1-282599.png",
-    Previewlink: "https://github.com/Trilasha/NewsWallah-React",
-    Githublink: "https://github.com/Trilasha/NewsWallah-React",
-  },
-  {
     title: "TextUtils",
     cardImage: "assets/images/project-page/text.jpg",
     description: "TextUtils is a word counter and a character counting utility that can be used to manipulate your text in the way you want. You can remove extra spaces, copy the manipulated text as well as convert your text from UpperCase to LowerCase and Lowercase to Uppercase.",
     // tagimg: "https://image.flaticon.com/icons/png/512/643/643350.png",
     Previewlink: "https://trilasha.github.io/TextUtils-React/",
     Githublink: "https://github.com/Trilasha/TextUtils-React",
+  },
+  {
+    title: "NewsWallah",
+    cardImage: "assets/images/project-page/newswallah.webp",
+    description: "It's a responsive API based News Web App to display the daily news and its contents category wise.",
+    // tagimg: "https://cdn.iconscout.com/icon/free/png-512/react-1-282599.png",
+    Previewlink: "https://github.com/Trilasha/NewsWallah-React",
+    Githublink: "https://github.com/Trilasha/NewsWallah-React",
   },
   {
     title: "To-Do App",
@@ -34,7 +34,7 @@ const projects = [
     cardImage: "assets/images/project-page/simon.jpg",
     description: "Exercise tracker built using basic redux.",
     tagimg: "https://miro.medium.com/max/2800/0*U2DmhXYumRyXH6X1.png",
-    Previewlink: "",
+    Previewlink: "https://trilasha.github.io/Simon_Game/",
     Githublink: "https://github.com/Trilasha/Simon_Game",
   },
   {
@@ -59,15 +59,15 @@ const projects = [
     description:
       "Tested a React Tic Tac Toe Game using Jest and React Testing Library.",
     tagimg: "https://cdn.iconscout.com/icon/free/png-512/react-1-282599.png",
-    Previewlink: "",
-    Githublink: "",
+    Previewlink: "https://trilasha.github.io/CSS-Hack/",
+    Githublink: "https://github.com/Trilasha/CSS-Hack",
   },
   {
     title: "Foodies",
     cardImage: "assets/images/project-page/foodies.png",
     description: "Personal book library app built using JavaScript.",
-    Previewlink: "",
-    Githublink: "",
+    Previewlink: "https://trilasha.github.io/Foodies-Webpage/",
+    Githublink: "https://github.com/Trilasha/Foodies-Webpage",
   },
   {
     title: "Handwritten Digit Recognition Model",
@@ -82,7 +82,7 @@ const projects = [
     cardImage: "assets/images/project-page/python.jfif",
     description: "Built battery life calculator using Python.",
     Previewlink: "",
-    Githublink: "",
+    Githublink: "https://github.com/Trilasha/ML_projects",
   },
   // {
   //   title: "Movie Recommendation System",
